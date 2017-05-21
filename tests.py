@@ -77,7 +77,7 @@ class TestBasicDataTypes(Basic):
         self.store_and_compare(a)
 
     def test_unicode_text(self):
-        a = {'colενα': u'πραγμα', 'colδυο': 'älles güt'}
+        a = {'colενα': 'πραγμα', 'colδυο': 'älles güt'}
         self.store_and_compare(a)
 
     def test_int(self):
